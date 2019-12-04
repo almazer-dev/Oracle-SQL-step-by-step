@@ -1,0 +1,11 @@
+-- SECTION 4
+select * from cat;
+
+desc sales;
+
+-- SECTION 5
+
+SELECT * FROM SALES WHERE total_amount > 100;
+SELECT * FROM SALES WHERE TOTAL_AMOUNT != 100;
+
+SELECT * FROM SALES WHERE SALES_DATE = '09-02-2015';
